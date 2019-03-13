@@ -1,22 +1,7 @@
-h1 {
-    font-family: 'Courier New', Courier, monospace;
-}
+@import url('https://fonts.googleapis.com/css?family=Poppins');
 
-h2 {
-    font-family: 'Courier New', Courier, monospace;
-}
-
-h3 {
-    font-family: 'Courier New', Courier, monospace;
-}
-
-p {
-    font-family: 'Courier New', Courier, monospace;
-}
-
-div#finder {
-    font-family: 'Courier New', Courier, monospace;
-    margin-bottom: 20px;
+body {
+    font-family: 'Poppins', sans-serif;
 }
 
 img {
@@ -24,12 +9,82 @@ img {
     width: 500px;
 }
 
+div.header-section {
+    display: inline-block;
+    width: 49%;
+    height: 220px;
+}
+
+div#finder {
+    font-size: 2rem;
+    text-align: right;
+    position: fixed;
+    top: 90px;
+    right: 60px;
+}
+
+div.section {
+    display: inline-block;
+    text-align: justify;
+    width: 22%;
+    height: 500px;
+    overflow: auto;
+    padding-right: 1%;
+    padding-left: 1%;
+}
+
+div#cityname {
+    background-color: #17255A;
+    text-align: center;
+}
+
+div#about {
+    background-color: #BEE4DD;
+}
+
+div#geography {
+    background-color: #4C6E72;
+}
+
+div#climate {
+    background-color: #CED5D8;
+}
+
+div#population {
+    background-color: #0E8187;
+}
+
+h1 {
+    color: white;
+}
+
 button {
-    font-family: 'Courier New', Courier, monospace;    4444444444yuyyyyyf
     margin-bottom: 20px;
 }
 
 a {
-    font-family: 'Courier New', Courier, monospace;
     margin-bottom: 20px;
 }   
+
+footer {
+    background-color: #17255A;
+}
+
+h2#news-title {
+    color: white;
+}
+
+div.footer-section {
+    display: inline-block;
+    width: 48%;
+    text-align: center;
+}
+
+i {
+    color: white;
+    font-size: 40px;
+}
+
+a {
+    color: white;
+}
